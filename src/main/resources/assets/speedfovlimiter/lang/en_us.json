@@ -1,0 +1,6 @@
+{
+  "yacl3.config.minecraft:speedfovlimiter.category.settings": "Settings",
+  "yacl3.config.minecraft:speedfovlimiter.modEnabled": "Mod Functionality",
+  "yacl3.config.minecraft:speedfovlimiter.lowestFovMultiplier": "Lowest FOV Multiplier",
+  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier": "Highest FOV Multiplier"
+}
