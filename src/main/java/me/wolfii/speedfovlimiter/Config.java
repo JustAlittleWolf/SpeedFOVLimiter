@@ -16,9 +16,12 @@ public class Config {
             .id(new Identifier("speedfovlimiter"))
             .serializer(config -> GsonConfigSerializerBuilder.create(config)
                     .setPath(FabricLoader.getInstance().getConfigDir().resolve("speedfovlimiter.json"))
-                    .setJson5(true)
                     .build())
             .build();
+
+    static {
+        configInstance.load();
+    }
 
     public static Config getConfig() {
         return Config.configInstance.instance();
