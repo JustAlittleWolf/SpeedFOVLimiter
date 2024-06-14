@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class Config {
     private static final ConfigClassHandler<Config> configInstance = ConfigClassHandler.createBuilder(Config.class)
-            .id(new Identifier("speedfovlimiter"))
+            .id(Identifier.of("speedfovlimiter"))
             .serializer(config -> GsonConfigSerializerBuilder.create(config)
                     .setPath(FabricLoader.getInstance().getConfigDir().resolve("speedfovlimiter.json"))
                     .build())
@@ -38,13 +38,13 @@ public class Config {
     public boolean modEnabled = true;
 
     @AutoGen(category = "settings")
-    @FloatSlider(min = 0.0f, max = 1.0f, step = 0.01F, format = "%.2f")
+    @FloatSlider(min = 0.33f, max = 1.0f, step = 0.01F, format = "%.2f")
     @CustomDescription("Caps how narrow your view gets when having the slowness effect.")
     @SerialEntry
     public float lowestFovMultiplier = 0.75f;
 
     @AutoGen(category = "settings")
-    @FloatSlider(min = 1.0f, max = 5.0f, step = 0.01F, format = "%.2f")
+    @FloatSlider(min = 1.0f, max = 2.5f, step = 0.01F, format = "%.2f")
     @CustomDescription("Caps how wide your view gets when having the speed effect.")
     @SerialEntry
     public float highestFovMultiplier = 1.25f;
