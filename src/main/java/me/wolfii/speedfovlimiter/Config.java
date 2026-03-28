@@ -8,12 +8,12 @@ import dev.isxander.yacl3.config.v2.api.autogen.CustomDescription;
 import dev.isxander.yacl3.config.v2.api.autogen.FloatSlider;
 import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.util.Identifier;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.resources.ResourceLocation;
 
 public class Config {
     private static final ConfigClassHandler<Config> configInstance = ConfigClassHandler.createBuilder(Config.class)
-            .id(Identifier.of("speedfovlimiter"))
+            .id(ResourceLocation.parse("speedfovlimiter"))
             .serializer(config -> GsonConfigSerializerBuilder.create(config)
                     .setPath(FabricLoader.getInstance().getConfigDir().resolve("speedfovlimiter.json"))
                     .build())
