@@ -1,6 +1,9 @@
 {
   "yacl3.config.minecraft:speedfovlimiter.category.settings": "Settings",
   "yacl3.config.minecraft:speedfovlimiter.modEnabled": "Mod Functionality",
+  "yacl3.config.minecraft:speedfovlimiter.modEnabled.desc": "Toggles the mod",
   "yacl3.config.minecraft:speedfovlimiter.lowestFovMultiplier": "Lowest FOV Multiplier",
-  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier": "Highest FOV Multiplier"
+  "yacl3.config.minecraft:speedfovlimiter.lowestFovMultiplier.desc": "Caps how narrow your view gets when having the slowness effect",
+  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier": "Highest FOV Multiplier",
+  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier.desc": "Caps how wide your view gets when having the speed effect"
 }

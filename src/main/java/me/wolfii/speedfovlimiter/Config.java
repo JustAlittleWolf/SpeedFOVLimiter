@@ -33,19 +33,16 @@ public class Config {
 
     @AutoGen(category = "settings")
     @Boolean(formatter = Boolean.Formatter.ON_OFF)
-    @CustomDescription("Toggles the mod.")
     @SerialEntry
     public boolean modEnabled = true;
 
     @AutoGen(category = "settings")
     @FloatSlider(min = 0.33f, max = 1.0f, step = 0.01F, format = "%.2f")
-    @CustomDescription("Caps how narrow your view gets when having the slowness effect.")
     @SerialEntry
     public float lowestFovMultiplier = 0.75f;
 
     @AutoGen(category = "settings")
     @FloatSlider(min = 1.0f, max = 2.5f, step = 0.01F, format = "%.2f")
-    @CustomDescription("Caps how wide your view gets when having the speed effect.")
     @SerialEntry
     public float highestFovMultiplier = 1.25f;
 }
