@@ -5,5 +5,9 @@
   "yacl3.config.minecraft:speedfovlimiter.lowestFovMultiplier": "Lowest FOV Multiplier",
   "yacl3.config.minecraft:speedfovlimiter.lowestFovMultiplier.desc": "Caps how narrow your view gets when having the slowness effect",
   "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier": "Highest FOV Multiplier",
-  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier.desc": "Caps how wide your view gets when having the speed effect"
+  "yacl3.config.minecraft:speedfovlimiter.highestFovMultiplier.desc": "Caps how wide your view gets when having the speed effect",
+  "yacl3.config.minecraft:speedfovlimiter.limitSoulSpeed": "Limit Soul Speed",
+  "yacl3.config.minecraft:speedfovlimiter.limitSoulSpeed.desc": "Unless \"Limit all FOV types\" is active, only speed and slowness are being capped. When this option is on, the effect Soul Speed has is capped as well.",
+  "yacl3.config.minecraft:speedfovlimiter.limitAllFov": "Limit all FOV types",
+  "yacl3.config.minecraft:speedfovlimiter.limitAllFov.desc": "Whether only the FOV of the speed effect is limited, or the FOV effect of all actions (including flying, sprinting and using a bow)"
 }

@@ -45,4 +45,14 @@ public class Config {
     @FloatSlider(min = 1.0f, max = 2.5f, step = 0.01F, format = "%.2f")
     @SerialEntry
     public float highestFovMultiplier = 1.25f;
+
+    @AutoGen(category = "settings")
+    @Boolean(formatter = Boolean.Formatter.YES_NO)
+    @SerialEntry
+    public boolean limitSoulSpeed = true;
+
+    @AutoGen(category = "settings")
+    @Boolean(formatter = Boolean.Formatter.YES_NO)
+    @SerialEntry
+    public boolean limitAllFov = false;
 }
