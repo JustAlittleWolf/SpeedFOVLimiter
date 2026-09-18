@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "speedfovlimiter",
   "version": "${version}",
-  "name": "SpeedFOVLimiter",
+  "name": "Speed FOV Limiter",
   "description": "Set limits for what speed and slowness do to your fov!",
   "authors": [
     "JustAlittleWolf"
